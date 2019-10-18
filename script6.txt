@@ -1,0 +1,61 @@
+======================================================
+Filename: script6.txt
+Running Test: [LClassB;@4b67cf4d
+Recursive: true
+Class Name: [LClassB;
+Super Class Name: java.lang.Object
+	Class Name: java.lang.Object
+	Constructor Name: java.lang.Object
+		Modifiers: public
+	Method Name: finalize
+		Exceptions Thrown: java.lang.Throwable
+		Return Type: void
+		Modifiers: protected
+	Method Name: wait
+		Exceptions Thrown: java.lang.InterruptedException
+		Return Type: void
+		Modifiers: public final
+	Method Name: wait
+		Exceptions Thrown: java.lang.InterruptedException
+		Parameter Types: long
+		Parameter Types: int
+		Return Type: void
+		Modifiers: public final
+	Method Name: wait
+		Exceptions Thrown: java.lang.InterruptedException
+		Parameter Types: long
+		Return Type: void
+		Modifiers: public final native
+	Method Name: equals
+		Parameter Types: java.lang.Object
+		Return Type: boolean
+		Modifiers: public
+	Method Name: toString
+		Return Type: java.lang.String
+		Modifiers: public
+	Method Name: hashCode
+		Return Type: int
+		Modifiers: public native
+	Method Name: getClass
+		Return Type: java.lang.Class
+		Modifiers: public final native
+	Method Name: clone
+		Exceptions Thrown: java.lang.CloneNotSupportedException
+		Return Type: java.lang.Object
+		Modifiers: protected native
+	Method Name: notify
+		Return Type: void
+		Modifiers: public final native
+	Method Name: notifyAll
+		Return Type: void
+		Modifiers: public final native
+	Method Name: registerNatives
+		Return Type: void
+		Modifiers: private static native
+Implements Interface: java.lang.Cloneable
+	Class Name: java.lang.Cloneable
+	No super class
+Implements Interface: java.io.Serializable
+	Class Name: java.io.Serializable
+	No super class
+======================================================

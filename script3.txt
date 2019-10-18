@@ -1,0 +1,252 @@
+======================================================
+Filename: script3.txt
+Running Test: ClassB
+Recursive: true
+Class Name: ClassB
+Super Class Name: ClassC
+	Class Name: ClassC
+	Super Class Name: ClassD
+		Class Name: ClassD
+		Super Class Name: java.lang.Object
+			Class Name: java.lang.Object
+			Constructor Name: java.lang.Object
+				Modifiers: public
+			Method Name: finalize
+				Exceptions Thrown: java.lang.Throwable
+				Return Type: void
+				Modifiers: protected
+			Method Name: wait
+				Exceptions Thrown: java.lang.InterruptedException
+				Return Type: void
+				Modifiers: public final
+			Method Name: wait
+				Exceptions Thrown: java.lang.InterruptedException
+				Parameter Types: long
+				Parameter Types: int
+				Return Type: void
+				Modifiers: public final
+			Method Name: wait
+				Exceptions Thrown: java.lang.InterruptedException
+				Parameter Types: long
+				Return Type: void
+				Modifiers: public final native
+			Method Name: equals
+				Parameter Types: java.lang.Object
+				Return Type: boolean
+				Modifiers: public
+			Method Name: toString
+				Return Type: java.lang.String
+				Modifiers: public
+			Method Name: hashCode
+				Return Type: int
+				Modifiers: public native
+			Method Name: getClass
+				Return Type: java.lang.Class
+				Modifiers: public final native
+			Method Name: clone
+				Exceptions Thrown: java.lang.CloneNotSupportedException
+				Return Type: java.lang.Object
+				Modifiers: protected native
+			Method Name: notify
+				Return Type: void
+				Modifiers: public final native
+			Method Name: notifyAll
+				Return Type: void
+				Modifiers: public final native
+			Method Name: registerNatives
+				Return Type: void
+				Modifiers: private static native
+		Constructor Name: ClassD
+			Modifiers: public
+		Constructor Name: ClassD
+			Parameter Types: int
+			Modifiers: public
+		Method Name: toString
+			Return Type: java.lang.String
+			Modifiers: public
+		Method Name: getVal3
+			Return Type: int
+			Modifiers: public
+		Field Name: val
+			Type: ClassA
+			Modifiers: private
+			Class Name: ClassA
+			Super Class Name: java.lang.Object
+				Class Name: java.lang.Object
+				Constructor Name: java.lang.Object
+					Modifiers: public
+				Method Name: finalize
+					Exceptions Thrown: java.lang.Throwable
+					Return Type: void
+					Modifiers: protected
+				Method Name: wait
+					Exceptions Thrown: java.lang.InterruptedException
+					Return Type: void
+					Modifiers: public final
+				Method Name: wait
+					Exceptions Thrown: java.lang.InterruptedException
+					Parameter Types: long
+					Parameter Types: int
+					Return Type: void
+					Modifiers: public final
+				Method Name: wait
+					Exceptions Thrown: java.lang.InterruptedException
+					Parameter Types: long
+					Return Type: void
+					Modifiers: public final native
+				Method Name: equals
+					Parameter Types: java.lang.Object
+					Return Type: boolean
+					Modifiers: public
+				Method Name: toString
+					Return Type: java.lang.String
+					Modifiers: public
+				Method Name: hashCode
+					Return Type: int
+					Modifiers: public native
+				Method Name: getClass
+					Return Type: java.lang.Class
+					Modifiers: public final native
+				Method Name: clone
+					Exceptions Thrown: java.lang.CloneNotSupportedException
+					Return Type: java.lang.Object
+					Modifiers: protected native
+				Method Name: notify
+					Return Type: void
+					Modifiers: public final native
+				Method Name: notifyAll
+					Return Type: void
+					Modifiers: public final native
+				Method Name: registerNatives
+					Return Type: void
+					Modifiers: private static native
+			Implements Interface: java.io.Serializable
+				Class Name: java.io.Serializable
+				No super class
+			Implements Interface: java.lang.Runnable
+				Class Name: java.lang.Runnable
+				No super class
+				Method Name: run
+					Return Type: void
+					Modifiers: public abstract
+			Constructor Name: ClassA
+				Modifiers: public
+			Constructor Name: ClassA
+				Parameter Types: int
+				Modifiers: public
+			Method Name: run
+				Return Type: void
+				Modifiers: public
+			Method Name: toString
+				Return Type: java.lang.String
+				Modifiers: public
+			Method Name: setVal
+				Exceptions Thrown: java.lang.Exception
+				Parameter Types: int
+				Return Type: void
+				Modifiers: public
+			Method Name: printSomething
+				Return Type: void
+				Modifiers: private
+			Method Name: getVal
+				Return Type: int
+				Modifiers: public
+			Field Name: val
+				Type: int
+				Modifiers: private
+				Value: 17
+			Field Name: val2
+				Type: double
+				Modifiers: private
+				Value: 0.2
+			Field Name: val3
+				Type: boolean
+				Modifiers: private
+				Value: true
+		Field Name: val2
+			Type: ClassA
+			Modifiers: private static
+			Class Name: ClassA
+			Super Class Name: java.lang.Object
+				Class Name: java.lang.Object
+				Constructor Name: java.lang.Object
+					Modifiers: public
+				Method Name: finalize
+					Exceptions Thrown: java.lang.Throwable
+					Return Type: void
+					Modifiers: protected
+				Method Name: wait
+					Exceptions Thrown: java.lang.InterruptedException
+					Return Type: void
+					Modifiers: public final
+				Method Name: wait
+					Exceptions Thrown: java.lang.InterruptedException
+					Parameter Types: long
+					Parameter Types: int
+					Return Type: void
+					Modifiers: public final
+				Method Name: wait
+					Exceptions Thrown: java.lang.InterruptedException
+					Parameter Types: long
+					Return Type: void
+					Modifiers: public final native
+				Method Name: equals
+					Parameter Types: java.lang.Object
+					Return Type: boolean
+					Modifiers: public
+				Method Name: toString
+					Return Type: java.lang.String
+					Modifiers: public
+				Method Name: hashCode
+					Return Type: int
+					Modifiers: public native
+				Method Name: getClass
+					Return Type: java.lang.Class
+					Modifiers: public final native
+				Method Name: clone
+					Exceptions Thrown: java.lang.CloneNotSupportedException
+					Return Type: java.lang.Object
+					Modifiers: protected native
+				Method Name: notify
+					Return Type: void
+					Modifiers: public final native
+				Method Name: notifyAll
+					Return Type: void
+					Modifiers: public final native
+				Method Name: registerNatives
+					Return Type: void
+					Modifiers: private static native
+			Implements Interface: java.io.Serializable
+				Class Name: java.io.Serializable
+				No super class
+			Implements Interface: java.lang.Runnable
+				Class Name: java.lang.Runnable
+				No super class
+				Method Name: run
+					Return Type: void
+					Modifiers: public abstract
+			Constructor Name: ClassA
+				Modifiers: public
+			Constructor Name: ClassA
+				Parameter Types: int
+				Modifiers: public
+			Method Name: run
+				Return Type: void
+				Modifiers: public
+			Method Name: toString
+				Return Type: java.lang.String
+				Modifiers: public
+			Method Name: setVal
+				Exceptions Thrown: java.lang.Exception
+				Parameter Types: int
+				Return Type: void
+				Modifiers: public
+			Method Name: printSomething
+				Return Type: void
+				Modifiers: private
+			Method Name: getVal
+				Return Type: int
+				Modifiers: public
+			Field Name: val
+				Type: int
+				Modifiers: private
