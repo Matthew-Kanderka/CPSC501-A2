@@ -145,12 +145,12 @@ Super Class Name: ClassC
 				Parameter Types: int
 				Return Type: void
 				Modifiers: public
-			Method Name: getVal
-				Return Type: int
-				Modifiers: public
 			Method Name: printSomething
 				Return Type: void
 				Modifiers: private
+			Method Name: getVal
+				Return Type: int
+				Modifiers: public
 			Field Name: val
 				Type: int
 				Modifiers: private
@@ -189,13 +189,6 @@ Super Class Name: ClassC
 				Parameter Types: boolean
 				Return Type: void
 				Modifiers: public abstract
-		Method Name: func2
-			Exceptions: java.lang.Exception
-			Exceptions: java.lang.ArithmeticException
-			Exceptions: java.lang.IllegalMonitorStateException
-			Parameter Types: java.lang.String
-			Return Type: int
-			Modifiers: public abstract
 		Method Name: func1
 			Exceptions: java.lang.Exception
 			Parameter Types: int
@@ -203,6 +196,13 @@ Super Class Name: ClassC
 			Parameter Types: boolean
 			Parameter Types: java.lang.String
 			Return Type: void
+			Modifiers: public abstract
+		Method Name: func2
+			Exceptions: java.lang.Exception
+			Exceptions: java.lang.ArithmeticException
+			Exceptions: java.lang.IllegalMonitorStateException
+			Parameter Types: java.lang.String
+			Return Type: int
 			Modifiers: public abstract
 	Constructor Name: ClassC
 		Modifiers: public
@@ -222,13 +222,6 @@ Super Class Name: ClassC
 		Parameter Types: boolean
 		Return Type: void
 		Modifiers: public
-	Method Name: func2
-		Exceptions: java.lang.Exception
-		Exceptions: java.lang.ArithmeticException
-		Exceptions: java.lang.IllegalMonitorStateException
-		Parameter Types: java.lang.String
-		Return Type: int
-		Modifiers: public
 	Method Name: func1
 		Exceptions: java.lang.Exception
 		Parameter Types: int
@@ -236,6 +229,13 @@ Super Class Name: ClassC
 		Parameter Types: boolean
 		Parameter Types: java.lang.String
 		Return Type: void
+		Modifiers: public
+	Method Name: func2
+		Exceptions: java.lang.Exception
+		Exceptions: java.lang.ArithmeticException
+		Exceptions: java.lang.IllegalMonitorStateException
+		Parameter Types: java.lang.String
+		Return Type: int
 		Modifiers: public
 	Method Name: func3
 		Parameter Types: int
@@ -319,12 +319,12 @@ Super Class Name: ClassC
 			Parameter Types: int
 			Return Type: void
 			Modifiers: public
-		Method Name: getVal
-			Return Type: int
-			Modifiers: public
 		Method Name: printSomething
 			Return Type: void
 			Modifiers: private
+		Method Name: getVal
+			Return Type: int
+			Modifiers: public
 		Field Name: val
 			Type: int
 			Modifiers: private
@@ -415,12 +415,12 @@ Super Class Name: ClassC
 			Parameter Types: int
 			Return Type: void
 			Modifiers: public
-		Method Name: getVal
-			Return Type: int
-			Modifiers: public
 		Method Name: printSomething
 			Return Type: void
 			Modifiers: private
+		Method Name: getVal
+			Return Type: int
+			Modifiers: public
 		Field Name: val
 			Type: int
 			Modifiers: private
@@ -511,12 +511,12 @@ Super Class Name: ClassC
 			Parameter Types: int
 			Return Type: void
 			Modifiers: public
-		Method Name: getVal
-			Return Type: int
-			Modifiers: public
 		Method Name: printSomething
 			Return Type: void
 			Modifiers: private
+		Method Name: getVal
+			Return Type: int
+			Modifiers: public
 		Field Name: val
 			Type: int
 			Modifiers: private
@@ -625,12 +625,12 @@ Field Name: val
 		Parameter Types: int
 		Return Type: void
 		Modifiers: public
-	Method Name: getVal
-		Return Type: int
-		Modifiers: public
 	Method Name: printSomething
 		Return Type: void
 		Modifiers: private
+	Method Name: getVal
+		Return Type: int
+		Modifiers: public
 	Field Name: val
 		Type: int
 		Modifiers: private
@@ -721,12 +721,12 @@ Field Name: val2
 		Parameter Types: int
 		Return Type: void
 		Modifiers: public
-	Method Name: getVal
-		Return Type: int
-		Modifiers: public
 	Method Name: printSomething
 		Return Type: void
 		Modifiers: private
+	Method Name: getVal
+		Return Type: int
+		Modifiers: public
 	Field Name: val
 		Type: int
 		Modifiers: private

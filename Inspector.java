@@ -14,7 +14,7 @@ public class Inspector {
         getSuperClassInfo(c, obj, recursive, depth);
         getInterfaceInfo(c, obj, recursive, depth);
         getConstructorInfo(c, obj, depth);
-        getMethodInfo(c, obj, depth);
+        getMethodInfo(c, depth);
         getFieldInfo(c, obj, recursive, depth);
     }
 
@@ -60,7 +60,7 @@ public class Inspector {
         }
     }
 
-    public void getMethodInfo(Class c, Object obj, int depth) {
+    public void getMethodInfo(Class c, int depth) {
 
         Method[] methods = c.getDeclaredMethods();
 

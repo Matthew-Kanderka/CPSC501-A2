@@ -77,12 +77,12 @@ Method Name: setVal
 	Parameter Types: int
 	Return Type: void
 	Modifiers: public
-Method Name: getVal
-	Return Type: int
-	Modifiers: public
 Method Name: printSomething
 	Return Type: void
 	Modifiers: private
+Method Name: getVal
+	Return Type: int
+	Modifiers: public
 Field Name: val
 	Type: int
 	Modifiers: private

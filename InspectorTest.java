@@ -70,7 +70,7 @@ public class InspectorTest {
 
     @Test
     public void testGetMethodInfo() {
-        new Inspector().getMethodInfo(String.class, "", 0);
+        new Inspector().getMethodInfo(String.class, 0);
 
         String expected = "Method Name: length";
         assert (outStream.toString().contains(expected));
