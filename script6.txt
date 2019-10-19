@@ -1,6 +1,6 @@
 ======================================================
 Filename: script6.txt
-Running Test: [LClassB;@4b67cf4d
+Running Test: [LClassB;@7ea987ac
 Recursive: true
 Class Name: [LClassB;
 Super Class Name: java.lang.Object

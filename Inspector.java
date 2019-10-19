@@ -18,7 +18,7 @@ public class Inspector {
         getFieldInfo(c, obj, recursive, depth);
     }
 
-    private void getSuperClassInfo(Class c, Object obj, boolean recursive, int depth) {
+    public void getSuperClassInfo(Class c, Object obj, boolean recursive, int depth) {
 
         if (c.equals(Object.class)) {
             return;
@@ -34,7 +34,7 @@ public class Inspector {
         }
     }
 
-    private void getInterfaceInfo(Class c, Object obj, boolean recursive, int depth) {
+    public void getInterfaceInfo(Class c, Object obj, boolean recursive, int depth) {
 
         Class[] interfaces = c.getInterfaces();
 
@@ -44,7 +44,7 @@ public class Inspector {
         }
     }
 
-    private void getConstructorInfo(Class c, Object obj, int depth) {
+    public void getConstructorInfo(Class c, Object obj, int depth) {
 
         Constructor[] constructors = c.getDeclaredConstructors();
 
@@ -60,7 +60,7 @@ public class Inspector {
         }
     }
 
-    private void getMethodInfo(Class c, Object obj, int depth) {
+    public void getMethodInfo(Class c, Object obj, int depth) {
 
         Method[] methods = c.getDeclaredMethods();
 
@@ -69,7 +69,7 @@ public class Inspector {
 
             Class[] exceptions = m.getExceptionTypes();
             for (Class ex: exceptions) {
-                formattedPrint("Exceptions Thrown: " + ex.getName(), depth+1);
+                formattedPrint("Exceptions: " + ex.getName(), depth+1);
             }
 
             Class[] parameterTypes = m.getParameterTypes();
@@ -82,7 +82,7 @@ public class Inspector {
         }
     }
 
-    private void getFieldInfo(Class c, Object obj, boolean recursive, int depth) {
+    public void getFieldInfo(Class c, Object obj, boolean recursive, int depth) {
 
         Field[] fields = c.getDeclaredFields();
 
@@ -100,7 +100,9 @@ public class Inspector {
                 System.out.println("Cannot Access Field");
             }
 
-            if (f.getType().isArray()) {
+            if (value == null) {
+                formattedPrint("Value: " + null, depth + 1);
+            } else if (f.getType().isArray()) {
                 inspectArray(f.getType(), value, recursive, depth);
             } else if (f.getType().isPrimitive()) {
                 formattedPrint("Value: " + value, depth+1);
@@ -114,7 +116,7 @@ public class Inspector {
         }
     }
 
-    private void inspectArray(Class c, Object obj, boolean recursive, int depth) {
+    public void inspectArray(Class c, Object obj, boolean recursive, int depth) {
 
         Class componentType = c.getComponentType();
         formattedPrint("Component Type: " + componentType.getName(), depth);
@@ -125,7 +127,10 @@ public class Inspector {
         for (int i = 0; i < arrayLength; i++) {
             Object object = Array.get(obj, i);
 
-            if (componentType.isPrimitive()) {
+            if (object == null) {
+                formattedPrint("null", depth);
+            }
+            else if (componentType.isPrimitive()) {
                 formattedPrint(object.getClass().getName(), depth);
             } else if (componentType.isArray()) {
                 inspectArray(object.getClass(), object, recursive, 1);
@@ -139,7 +144,7 @@ public class Inspector {
         }
     }
 
-    private void formattedPrint(String message, int depth) {
+    public void formattedPrint(String message, int depth) {
         for (int i = 0; i < depth; i++) {
             System.out.print("\t");
         }
