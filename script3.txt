@@ -12,21 +12,21 @@ Super Class Name: ClassC
 			Constructor Name: java.lang.Object
 				Modifiers: public
 			Method Name: finalize
-				Exceptions Thrown: java.lang.Throwable
+				Exceptions: java.lang.Throwable
 				Return Type: void
 				Modifiers: protected
 			Method Name: wait
-				Exceptions Thrown: java.lang.InterruptedException
+				Exceptions: java.lang.InterruptedException
 				Return Type: void
 				Modifiers: public final
 			Method Name: wait
-				Exceptions Thrown: java.lang.InterruptedException
+				Exceptions: java.lang.InterruptedException
 				Parameter Types: long
 				Parameter Types: int
 				Return Type: void
 				Modifiers: public final
 			Method Name: wait
-				Exceptions Thrown: java.lang.InterruptedException
+				Exceptions: java.lang.InterruptedException
 				Parameter Types: long
 				Return Type: void
 				Modifiers: public final native
@@ -44,7 +44,7 @@ Super Class Name: ClassC
 				Return Type: java.lang.Class
 				Modifiers: public final native
 			Method Name: clone
-				Exceptions Thrown: java.lang.CloneNotSupportedException
+				Exceptions: java.lang.CloneNotSupportedException
 				Return Type: java.lang.Object
 				Modifiers: protected native
 			Method Name: notify
@@ -76,21 +76,21 @@ Super Class Name: ClassC
 				Constructor Name: java.lang.Object
 					Modifiers: public
 				Method Name: finalize
-					Exceptions Thrown: java.lang.Throwable
+					Exceptions: java.lang.Throwable
 					Return Type: void
 					Modifiers: protected
 				Method Name: wait
-					Exceptions Thrown: java.lang.InterruptedException
+					Exceptions: java.lang.InterruptedException
 					Return Type: void
 					Modifiers: public final
 				Method Name: wait
-					Exceptions Thrown: java.lang.InterruptedException
+					Exceptions: java.lang.InterruptedException
 					Parameter Types: long
 					Parameter Types: int
 					Return Type: void
 					Modifiers: public final
 				Method Name: wait
-					Exceptions Thrown: java.lang.InterruptedException
+					Exceptions: java.lang.InterruptedException
 					Parameter Types: long
 					Return Type: void
 					Modifiers: public final native
@@ -108,7 +108,7 @@ Super Class Name: ClassC
 					Return Type: java.lang.Class
 					Modifiers: public final native
 				Method Name: clone
-					Exceptions Thrown: java.lang.CloneNotSupportedException
+					Exceptions: java.lang.CloneNotSupportedException
 					Return Type: java.lang.Object
 					Modifiers: protected native
 				Method Name: notify
@@ -141,7 +141,7 @@ Super Class Name: ClassC
 				Return Type: java.lang.String
 				Modifiers: public
 			Method Name: setVal
-				Exceptions Thrown: java.lang.Exception
+				Exceptions: java.lang.Exception
 				Parameter Types: int
 				Return Type: void
 				Modifiers: public
@@ -176,16 +176,7 @@ Super Class Name: ClassC
 			Modifiers: private
 		Component Type: ClassA
 		Array Length: 10
-		null
-		null
-		null
-		null
-		null
-		null
-		null
-		null
-		null
-		null
+		null		null		null		null		null		null		null		null		null		null
 	Implements Interface: InterfaceA
 		Class Name: InterfaceA
 		No super class
@@ -193,20 +184,20 @@ Super Class Name: ClassC
 			Class Name: InterfaceB
 			No super class
 			Method Name: func0
-				Exceptions Thrown: java.lang.Exception
+				Exceptions: java.lang.Exception
 				Parameter Types: int
 				Parameter Types: boolean
 				Return Type: void
 				Modifiers: public abstract
 		Method Name: func2
-			Exceptions Thrown: java.lang.Exception
-			Exceptions Thrown: java.lang.ArithmeticException
-			Exceptions Thrown: java.lang.IllegalMonitorStateException
+			Exceptions: java.lang.Exception
+			Exceptions: java.lang.ArithmeticException
+			Exceptions: java.lang.IllegalMonitorStateException
 			Parameter Types: java.lang.String
 			Return Type: int
 			Modifiers: public abstract
 		Method Name: func1
-			Exceptions Thrown: java.lang.Exception
+			Exceptions: java.lang.Exception
 			Parameter Types: int
 			Parameter Types: double
 			Parameter Types: boolean
@@ -225,15 +216,21 @@ Super Class Name: ClassC
 	Method Name: toString
 		Return Type: java.lang.String
 		Modifiers: public
+	Method Name: func0
+		Exceptions: java.lang.Exception
+		Parameter Types: int
+		Parameter Types: boolean
+		Return Type: void
+		Modifiers: public
 	Method Name: func2
-		Exceptions Thrown: java.lang.Exception
-		Exceptions Thrown: java.lang.ArithmeticException
-		Exceptions Thrown: java.lang.IllegalMonitorStateException
+		Exceptions: java.lang.Exception
+		Exceptions: java.lang.ArithmeticException
+		Exceptions: java.lang.IllegalMonitorStateException
 		Parameter Types: java.lang.String
 		Return Type: int
 		Modifiers: public
 	Method Name: func1
-		Exceptions Thrown: java.lang.Exception
+		Exceptions: java.lang.Exception
 		Parameter Types: int
 		Parameter Types: double
 		Parameter Types: boolean
@@ -244,12 +241,6 @@ Super Class Name: ClassC
 		Parameter Types: int
 		Return Type: void
 		Modifiers: public abstract
-	Method Name: func0
-		Exceptions Thrown: java.lang.Exception
-		Parameter Types: int
-		Parameter Types: boolean
-		Return Type: void
-		Modifiers: public
 	Field Name: val2
 		Type: ClassA
 		Modifiers: private
@@ -259,21 +250,21 @@ Super Class Name: ClassC
 			Constructor Name: java.lang.Object
 				Modifiers: public
 			Method Name: finalize
-				Exceptions Thrown: java.lang.Throwable
+				Exceptions: java.lang.Throwable
 				Return Type: void
 				Modifiers: protected
 			Method Name: wait
-				Exceptions Thrown: java.lang.InterruptedException
+				Exceptions: java.lang.InterruptedException
 				Return Type: void
 				Modifiers: public final
 			Method Name: wait
-				Exceptions Thrown: java.lang.InterruptedException
+				Exceptions: java.lang.InterruptedException
 				Parameter Types: long
 				Parameter Types: int
 				Return Type: void
 				Modifiers: public final
 			Method Name: wait
-				Exceptions Thrown: java.lang.InterruptedException
+				Exceptions: java.lang.InterruptedException
 				Parameter Types: long
 				Return Type: void
 				Modifiers: public final native
@@ -291,7 +282,7 @@ Super Class Name: ClassC
 				Return Type: java.lang.Class
 				Modifiers: public final native
 			Method Name: clone
-				Exceptions Thrown: java.lang.CloneNotSupportedException
+				Exceptions: java.lang.CloneNotSupportedException
 				Return Type: java.lang.Object
 				Modifiers: protected native
 			Method Name: notify
@@ -324,7 +315,7 @@ Super Class Name: ClassC
 			Return Type: java.lang.String
 			Modifiers: public
 		Method Name: setVal
-			Exceptions Thrown: java.lang.Exception
+			Exceptions: java.lang.Exception
 			Parameter Types: int
 			Return Type: void
 			Modifiers: public
@@ -355,21 +346,21 @@ Super Class Name: ClassC
 			Constructor Name: java.lang.Object
 				Modifiers: public
 			Method Name: finalize
-				Exceptions Thrown: java.lang.Throwable
+				Exceptions: java.lang.Throwable
 				Return Type: void
 				Modifiers: protected
 			Method Name: wait
-				Exceptions Thrown: java.lang.InterruptedException
+				Exceptions: java.lang.InterruptedException
 				Return Type: void
 				Modifiers: public final
 			Method Name: wait
-				Exceptions Thrown: java.lang.InterruptedException
+				Exceptions: java.lang.InterruptedException
 				Parameter Types: long
 				Parameter Types: int
 				Return Type: void
 				Modifiers: public final
 			Method Name: wait
-				Exceptions Thrown: java.lang.InterruptedException
+				Exceptions: java.lang.InterruptedException
 				Parameter Types: long
 				Return Type: void
 				Modifiers: public final native
@@ -387,7 +378,7 @@ Super Class Name: ClassC
 				Return Type: java.lang.Class
 				Modifiers: public final native
 			Method Name: clone
-				Exceptions Thrown: java.lang.CloneNotSupportedException
+				Exceptions: java.lang.CloneNotSupportedException
 				Return Type: java.lang.Object
 				Modifiers: protected native
 			Method Name: notify
@@ -420,7 +411,7 @@ Super Class Name: ClassC
 			Return Type: java.lang.String
 			Modifiers: public
 		Method Name: setVal
-			Exceptions Thrown: java.lang.Exception
+			Exceptions: java.lang.Exception
 			Parameter Types: int
 			Return Type: void
 			Modifiers: public
@@ -451,21 +442,21 @@ Super Class Name: ClassC
 			Constructor Name: java.lang.Object
 				Modifiers: public
 			Method Name: finalize
-				Exceptions Thrown: java.lang.Throwable
+				Exceptions: java.lang.Throwable
 				Return Type: void
 				Modifiers: protected
 			Method Name: wait
-				Exceptions Thrown: java.lang.InterruptedException
+				Exceptions: java.lang.InterruptedException
 				Return Type: void
 				Modifiers: public final
 			Method Name: wait
-				Exceptions Thrown: java.lang.InterruptedException
+				Exceptions: java.lang.InterruptedException
 				Parameter Types: long
 				Parameter Types: int
 				Return Type: void
 				Modifiers: public final
 			Method Name: wait
-				Exceptions Thrown: java.lang.InterruptedException
+				Exceptions: java.lang.InterruptedException
 				Parameter Types: long
 				Return Type: void
 				Modifiers: public final native
@@ -483,7 +474,7 @@ Super Class Name: ClassC
 				Return Type: java.lang.Class
 				Modifiers: public final native
 			Method Name: clone
-				Exceptions Thrown: java.lang.CloneNotSupportedException
+				Exceptions: java.lang.CloneNotSupportedException
 				Return Type: java.lang.Object
 				Modifiers: protected native
 			Method Name: notify
@@ -516,7 +507,7 @@ Super Class Name: ClassC
 			Return Type: java.lang.String
 			Modifiers: public
 		Method Name: setVal
-			Exceptions Thrown: java.lang.Exception
+			Exceptions: java.lang.Exception
 			Parameter Types: int
 			Return Type: void
 			Modifiers: public
@@ -565,21 +556,21 @@ Field Name: val
 		Constructor Name: java.lang.Object
 			Modifiers: public
 		Method Name: finalize
-			Exceptions Thrown: java.lang.Throwable
+			Exceptions: java.lang.Throwable
 			Return Type: void
 			Modifiers: protected
 		Method Name: wait
-			Exceptions Thrown: java.lang.InterruptedException
+			Exceptions: java.lang.InterruptedException
 			Return Type: void
 			Modifiers: public final
 		Method Name: wait
-			Exceptions Thrown: java.lang.InterruptedException
+			Exceptions: java.lang.InterruptedException
 			Parameter Types: long
 			Parameter Types: int
 			Return Type: void
 			Modifiers: public final
 		Method Name: wait
-			Exceptions Thrown: java.lang.InterruptedException
+			Exceptions: java.lang.InterruptedException
 			Parameter Types: long
 			Return Type: void
 			Modifiers: public final native
@@ -597,7 +588,7 @@ Field Name: val
 			Return Type: java.lang.Class
 			Modifiers: public final native
 		Method Name: clone
-			Exceptions Thrown: java.lang.CloneNotSupportedException
+			Exceptions: java.lang.CloneNotSupportedException
 			Return Type: java.lang.Object
 			Modifiers: protected native
 		Method Name: notify
@@ -630,7 +621,7 @@ Field Name: val
 		Return Type: java.lang.String
 		Modifiers: public
 	Method Name: setVal
-		Exceptions Thrown: java.lang.Exception
+		Exceptions: java.lang.Exception
 		Parameter Types: int
 		Return Type: void
 		Modifiers: public
@@ -661,21 +652,21 @@ Field Name: val2
 		Constructor Name: java.lang.Object
 			Modifiers: public
 		Method Name: finalize
-			Exceptions Thrown: java.lang.Throwable
+			Exceptions: java.lang.Throwable
 			Return Type: void
 			Modifiers: protected
 		Method Name: wait
-			Exceptions Thrown: java.lang.InterruptedException
+			Exceptions: java.lang.InterruptedException
 			Return Type: void
 			Modifiers: public final
 		Method Name: wait
-			Exceptions Thrown: java.lang.InterruptedException
+			Exceptions: java.lang.InterruptedException
 			Parameter Types: long
 			Parameter Types: int
 			Return Type: void
 			Modifiers: public final
 		Method Name: wait
-			Exceptions Thrown: java.lang.InterruptedException
+			Exceptions: java.lang.InterruptedException
 			Parameter Types: long
 			Return Type: void
 			Modifiers: public final native
@@ -693,7 +684,7 @@ Field Name: val2
 			Return Type: java.lang.Class
 			Modifiers: public final native
 		Method Name: clone
-			Exceptions Thrown: java.lang.CloneNotSupportedException
+			Exceptions: java.lang.CloneNotSupportedException
 			Return Type: java.lang.Object
 			Modifiers: protected native
 		Method Name: notify
@@ -726,7 +717,7 @@ Field Name: val2
 		Return Type: java.lang.String
 		Modifiers: public
 	Method Name: setVal
-		Exceptions Thrown: java.lang.Exception
+		Exceptions: java.lang.Exception
 		Parameter Types: int
 		Return Type: void
 		Modifiers: public

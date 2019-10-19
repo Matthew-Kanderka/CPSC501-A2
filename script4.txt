@@ -8,21 +8,21 @@ Super Class Name: java.lang.Object
 	Constructor Name: java.lang.Object
 		Modifiers: public
 	Method Name: finalize
-		Exceptions Thrown: java.lang.Throwable
+		Exceptions: java.lang.Throwable
 		Return Type: void
 		Modifiers: protected
 	Method Name: wait
-		Exceptions Thrown: java.lang.InterruptedException
+		Exceptions: java.lang.InterruptedException
 		Return Type: void
 		Modifiers: public final
 	Method Name: wait
-		Exceptions Thrown: java.lang.InterruptedException
+		Exceptions: java.lang.InterruptedException
 		Parameter Types: long
 		Parameter Types: int
 		Return Type: void
 		Modifiers: public final
 	Method Name: wait
-		Exceptions Thrown: java.lang.InterruptedException
+		Exceptions: java.lang.InterruptedException
 		Parameter Types: long
 		Return Type: void
 		Modifiers: public final native
@@ -40,7 +40,7 @@ Super Class Name: java.lang.Object
 		Return Type: java.lang.Class
 		Modifiers: public final native
 	Method Name: clone
-		Exceptions Thrown: java.lang.CloneNotSupportedException
+		Exceptions: java.lang.CloneNotSupportedException
 		Return Type: java.lang.Object
 		Modifiers: protected native
 	Method Name: notify
@@ -72,21 +72,21 @@ Field Name: val
 		Constructor Name: java.lang.Object
 			Modifiers: public
 		Method Name: finalize
-			Exceptions Thrown: java.lang.Throwable
+			Exceptions: java.lang.Throwable
 			Return Type: void
 			Modifiers: protected
 		Method Name: wait
-			Exceptions Thrown: java.lang.InterruptedException
+			Exceptions: java.lang.InterruptedException
 			Return Type: void
 			Modifiers: public final
 		Method Name: wait
-			Exceptions Thrown: java.lang.InterruptedException
+			Exceptions: java.lang.InterruptedException
 			Parameter Types: long
 			Parameter Types: int
 			Return Type: void
 			Modifiers: public final
 		Method Name: wait
-			Exceptions Thrown: java.lang.InterruptedException
+			Exceptions: java.lang.InterruptedException
 			Parameter Types: long
 			Return Type: void
 			Modifiers: public final native
@@ -104,7 +104,7 @@ Field Name: val
 			Return Type: java.lang.Class
 			Modifiers: public final native
 		Method Name: clone
-			Exceptions Thrown: java.lang.CloneNotSupportedException
+			Exceptions: java.lang.CloneNotSupportedException
 			Return Type: java.lang.Object
 			Modifiers: protected native
 		Method Name: notify
@@ -137,7 +137,7 @@ Field Name: val
 		Return Type: java.lang.String
 		Modifiers: public
 	Method Name: setVal
-		Exceptions Thrown: java.lang.Exception
+		Exceptions: java.lang.Exception
 		Parameter Types: int
 		Return Type: void
 		Modifiers: public
@@ -172,14 +172,5 @@ Field Name: vallarray
 	Modifiers: private
 Component Type: ClassA
 Array Length: 10
-null
-null
-null
-null
-null
-null
-null
-null
-null
-null
+nullnullnullnullnullnullnullnullnullnull
 ======================================================

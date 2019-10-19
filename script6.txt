@@ -1,6 +1,6 @@
 ======================================================
 Filename: script6.txt
-Running Test: [LClassB;@7ea987ac
+Running Test: [LClassB;@6e0be858
 Recursive: true
 Class Name: [LClassB;
 Super Class Name: java.lang.Object
@@ -8,21 +8,21 @@ Super Class Name: java.lang.Object
 	Constructor Name: java.lang.Object
 		Modifiers: public
 	Method Name: finalize
-		Exceptions Thrown: java.lang.Throwable
+		Exceptions: java.lang.Throwable
 		Return Type: void
 		Modifiers: protected
 	Method Name: wait
-		Exceptions Thrown: java.lang.InterruptedException
+		Exceptions: java.lang.InterruptedException
 		Return Type: void
 		Modifiers: public final
 	Method Name: wait
-		Exceptions Thrown: java.lang.InterruptedException
+		Exceptions: java.lang.InterruptedException
 		Parameter Types: long
 		Parameter Types: int
 		Return Type: void
 		Modifiers: public final
 	Method Name: wait
-		Exceptions Thrown: java.lang.InterruptedException
+		Exceptions: java.lang.InterruptedException
 		Parameter Types: long
 		Return Type: void
 		Modifiers: public final native
@@ -40,7 +40,7 @@ Super Class Name: java.lang.Object
 		Return Type: java.lang.Class
 		Modifiers: public final native
 	Method Name: clone
-		Exceptions Thrown: java.lang.CloneNotSupportedException
+		Exceptions: java.lang.CloneNotSupportedException
 		Return Type: java.lang.Object
 		Modifiers: protected native
 	Method Name: notify

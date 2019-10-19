@@ -107,11 +107,7 @@ public class Inspector {
             } else if (f.getType().isPrimitive()) {
                 formattedPrint("Value: " + value, depth+1);
             } else {
-                if (recursive) {
-                    inspectClass(f.getType(), value, recursive, depth + 1);
-                } else {
-                    formattedPrint("Reference Value: " + f.getType().getName() + "@" + f.hashCode(), depth);
-                }
+                referenceValueCheck(recursive, depth, value);
             }
         }
     }
@@ -128,19 +124,23 @@ public class Inspector {
             Object object = Array.get(obj, i);
 
             if (object == null) {
-                formattedPrint("null", depth);
-            }
-            else if (componentType.isPrimitive()) {
-                formattedPrint(object.getClass().getName(), depth);
+                formattedPrintNoNewLine("null", depth);
+            } else if (componentType.isPrimitive()) {
+                formattedPrintNoNewLine(object.getClass().getName(), depth);
             } else if (componentType.isArray()) {
                 inspectArray(object.getClass(), object, recursive, 1);
             } else {
-                if (recursive) {
-                    inspectClass(object.getClass(), object, recursive, depth + 1);
-                } else {
-                    formattedPrint("Reference Value: " + object.getClass().getName() + "@" + object.hashCode(), depth);
-                }
+                referenceValueCheck(recursive, depth, object);
             }
+        }
+        System.out.println();
+    }
+
+    private void referenceValueCheck(boolean recursive, int depth, Object object) {
+        if (recursive) {
+            inspectClass(object.getClass(), object, recursive, depth + 1);
+        } else {
+            formattedPrint("Reference Value: " + object.getClass().getName() + "@" + object.hashCode(), depth);
         }
     }
 
@@ -149,5 +149,12 @@ public class Inspector {
             System.out.print("\t");
         }
         System.out.println(message);
+    }
+
+    public void formattedPrintNoNewLine(String message, int depth) {
+        for (int i = 0; i < depth; i++) {
+            System.out.print("\t");
+        }
+        System.out.print(message);
     }
 }

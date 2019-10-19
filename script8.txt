@@ -8,21 +8,21 @@ Super Class Name: java.lang.Object
 	Constructor Name: java.lang.Object
 		Modifiers: public
 	Method Name: finalize
-		Exceptions Thrown: java.lang.Throwable
+		Exceptions: java.lang.Throwable
 		Return Type: void
 		Modifiers: protected
 	Method Name: wait
-		Exceptions Thrown: java.lang.InterruptedException
+		Exceptions: java.lang.InterruptedException
 		Return Type: void
 		Modifiers: public final
 	Method Name: wait
-		Exceptions Thrown: java.lang.InterruptedException
+		Exceptions: java.lang.InterruptedException
 		Parameter Types: long
 		Parameter Types: int
 		Return Type: void
 		Modifiers: public final
 	Method Name: wait
-		Exceptions Thrown: java.lang.InterruptedException
+		Exceptions: java.lang.InterruptedException
 		Parameter Types: long
 		Return Type: void
 		Modifiers: public final native
@@ -40,7 +40,7 @@ Super Class Name: java.lang.Object
 		Return Type: java.lang.Class
 		Modifiers: public final native
 	Method Name: clone
-		Exceptions Thrown: java.lang.CloneNotSupportedException
+		Exceptions: java.lang.CloneNotSupportedException
 		Return Type: java.lang.Object
 		Modifiers: protected native
 	Method Name: notify
@@ -334,7 +334,7 @@ Method Name: getBytes
 	Return Type: [B
 	Modifiers: public
 Method Name: getBytes
-	Exceptions Thrown: java.io.UnsupportedEncodingException
+	Exceptions: java.io.UnsupportedEncodingException
 	Parameter Types: java.lang.String
 	Return Type: [B
 	Modifiers: public
@@ -523,17 +523,7 @@ Field Name: value
 	Modifiers: private final
 Component Type: char
 Array Length: 11
-java.lang.Character
-java.lang.Character
-java.lang.Character
-java.lang.Character
-java.lang.Character
-java.lang.Character
-java.lang.Character
-java.lang.Character
-java.lang.Character
-java.lang.Character
-java.lang.Character
+java.lang.Characterjava.lang.Characterjava.lang.Characterjava.lang.Characterjava.lang.Characterjava.lang.Characterjava.lang.Characterjava.lang.Characterjava.lang.Characterjava.lang.Characterjava.lang.Character
 Field Name: hash
 	Type: int
 	Modifiers: private
@@ -547,122 +537,199 @@ Field Name: serialPersistentFields
 	Modifiers: private static final
 Component Type: java.io.ObjectStreamField
 Array Length: 0
+
 Field Name: CASE_INSENSITIVE_ORDER
 	Type: java.util.Comparator
 	Modifiers: public static final
-	Class Name: java.util.Comparator
-	No super class
-	Method Name: equals
-		Parameter Types: java.lang.Object
-		Return Type: boolean
-		Modifiers: public abstract
+	Class Name: java.lang.String$CaseInsensitiveComparator
+	Super Class Name: java.lang.Object
+		Class Name: java.lang.Object
+		Constructor Name: java.lang.Object
+			Modifiers: public
+		Method Name: finalize
+			Exceptions: java.lang.Throwable
+			Return Type: void
+			Modifiers: protected
+		Method Name: wait
+			Exceptions: java.lang.InterruptedException
+			Return Type: void
+			Modifiers: public final
+		Method Name: wait
+			Exceptions: java.lang.InterruptedException
+			Parameter Types: long
+			Parameter Types: int
+			Return Type: void
+			Modifiers: public final
+		Method Name: wait
+			Exceptions: java.lang.InterruptedException
+			Parameter Types: long
+			Return Type: void
+			Modifiers: public final native
+		Method Name: equals
+			Parameter Types: java.lang.Object
+			Return Type: boolean
+			Modifiers: public
+		Method Name: toString
+			Return Type: java.lang.String
+			Modifiers: public
+		Method Name: hashCode
+			Return Type: int
+			Modifiers: public native
+		Method Name: getClass
+			Return Type: java.lang.Class
+			Modifiers: public final native
+		Method Name: clone
+			Exceptions: java.lang.CloneNotSupportedException
+			Return Type: java.lang.Object
+			Modifiers: protected native
+		Method Name: notify
+			Return Type: void
+			Modifiers: public final native
+		Method Name: notifyAll
+			Return Type: void
+			Modifiers: public final native
+		Method Name: registerNatives
+			Return Type: void
+			Modifiers: private static native
+	Implements Interface: java.util.Comparator
+		Class Name: java.util.Comparator
+		No super class
+		Method Name: equals
+			Parameter Types: java.lang.Object
+			Return Type: boolean
+			Modifiers: public abstract
+		Method Name: compare
+			Parameter Types: java.lang.Object
+			Parameter Types: java.lang.Object
+			Return Type: int
+			Modifiers: public abstract
+		Method Name: $deserializeLambda$
+			Parameter Types: java.lang.invoke.SerializedLambda
+			Return Type: java.lang.Object
+			Modifiers: private static
+		Method Name: comparing
+			Parameter Types: java.util.function.Function
+			Parameter Types: java.util.Comparator
+			Return Type: java.util.Comparator
+			Modifiers: public static
+		Method Name: comparing
+			Parameter Types: java.util.function.Function
+			Return Type: java.util.Comparator
+			Modifiers: public static
+		Method Name: comparingDouble
+			Parameter Types: java.util.function.ToDoubleFunction
+			Return Type: java.util.Comparator
+			Modifiers: public static
+		Method Name: comparingInt
+			Parameter Types: java.util.function.ToIntFunction
+			Return Type: java.util.Comparator
+			Modifiers: public static
+		Method Name: comparingLong
+			Parameter Types: java.util.function.ToLongFunction
+			Return Type: java.util.Comparator
+			Modifiers: public static
+		Method Name: lambda$comparing$77a9974f$1
+			Parameter Types: java.util.function.Function
+			Parameter Types: java.lang.Object
+			Parameter Types: java.lang.Object
+			Return Type: int
+			Modifiers: private static
+		Method Name: lambda$comparing$ea9a8b3a$1
+			Parameter Types: java.util.Comparator
+			Parameter Types: java.util.function.Function
+			Parameter Types: java.lang.Object
+			Parameter Types: java.lang.Object
+			Return Type: int
+			Modifiers: private static
+		Method Name: lambda$comparingDouble$8dcf42ea$1
+			Parameter Types: java.util.function.ToDoubleFunction
+			Parameter Types: java.lang.Object
+			Parameter Types: java.lang.Object
+			Return Type: int
+			Modifiers: private static
+		Method Name: lambda$comparingInt$7b0bb60$1
+			Parameter Types: java.util.function.ToIntFunction
+			Parameter Types: java.lang.Object
+			Parameter Types: java.lang.Object
+			Return Type: int
+			Modifiers: private static
+		Method Name: lambda$comparingLong$6043328a$1
+			Parameter Types: java.util.function.ToLongFunction
+			Parameter Types: java.lang.Object
+			Parameter Types: java.lang.Object
+			Return Type: int
+			Modifiers: private static
+		Method Name: lambda$thenComparing$36697e65$1
+			Parameter Types: java.util.Comparator
+			Parameter Types: java.lang.Object
+			Parameter Types: java.lang.Object
+			Return Type: int
+			Modifiers: private
+		Method Name: naturalOrder
+			Return Type: java.util.Comparator
+			Modifiers: public static
+		Method Name: nullsFirst
+			Parameter Types: java.util.Comparator
+			Return Type: java.util.Comparator
+			Modifiers: public static
+		Method Name: nullsLast
+			Parameter Types: java.util.Comparator
+			Return Type: java.util.Comparator
+			Modifiers: public static
+		Method Name: reverseOrder
+			Return Type: java.util.Comparator
+			Modifiers: public static
+		Method Name: reversed
+			Return Type: java.util.Comparator
+			Modifiers: public
+		Method Name: thenComparing
+			Parameter Types: java.util.function.Function
+			Return Type: java.util.Comparator
+			Modifiers: public
+		Method Name: thenComparing
+			Parameter Types: java.util.Comparator
+			Return Type: java.util.Comparator
+			Modifiers: public
+		Method Name: thenComparing
+			Parameter Types: java.util.function.Function
+			Parameter Types: java.util.Comparator
+			Return Type: java.util.Comparator
+			Modifiers: public
+		Method Name: thenComparingDouble
+			Parameter Types: java.util.function.ToDoubleFunction
+			Return Type: java.util.Comparator
+			Modifiers: public
+		Method Name: thenComparingInt
+			Parameter Types: java.util.function.ToIntFunction
+			Return Type: java.util.Comparator
+			Modifiers: public
+		Method Name: thenComparingLong
+			Parameter Types: java.util.function.ToLongFunction
+			Return Type: java.util.Comparator
+			Modifiers: public
+	Implements Interface: java.io.Serializable
+		Class Name: java.io.Serializable
+		No super class
+	Constructor Name: java.lang.String$CaseInsensitiveComparator
+		Parameter Types: java.lang.String$1
+		Modifiers: 
+	Constructor Name: java.lang.String$CaseInsensitiveComparator
+		Modifiers: private
 	Method Name: compare
 		Parameter Types: java.lang.Object
 		Parameter Types: java.lang.Object
 		Return Type: int
-		Modifiers: public abstract
-	Method Name: $deserializeLambda$
-		Parameter Types: java.lang.invoke.SerializedLambda
+		Modifiers: public volatile
+	Method Name: compare
+		Parameter Types: java.lang.String
+		Parameter Types: java.lang.String
+		Return Type: int
+		Modifiers: public
+	Method Name: readResolve
 		Return Type: java.lang.Object
-		Modifiers: private static
-	Method Name: comparing
-		Parameter Types: java.util.function.Function
-		Parameter Types: java.util.Comparator
-		Return Type: java.util.Comparator
-		Modifiers: public static
-	Method Name: comparing
-		Parameter Types: java.util.function.Function
-		Return Type: java.util.Comparator
-		Modifiers: public static
-	Method Name: comparingDouble
-		Parameter Types: java.util.function.ToDoubleFunction
-		Return Type: java.util.Comparator
-		Modifiers: public static
-	Method Name: comparingInt
-		Parameter Types: java.util.function.ToIntFunction
-		Return Type: java.util.Comparator
-		Modifiers: public static
-	Method Name: comparingLong
-		Parameter Types: java.util.function.ToLongFunction
-		Return Type: java.util.Comparator
-		Modifiers: public static
-	Method Name: lambda$comparing$77a9974f$1
-		Parameter Types: java.util.function.Function
-		Parameter Types: java.lang.Object
-		Parameter Types: java.lang.Object
-		Return Type: int
-		Modifiers: private static
-	Method Name: lambda$comparing$ea9a8b3a$1
-		Parameter Types: java.util.Comparator
-		Parameter Types: java.util.function.Function
-		Parameter Types: java.lang.Object
-		Parameter Types: java.lang.Object
-		Return Type: int
-		Modifiers: private static
-	Method Name: lambda$comparingDouble$8dcf42ea$1
-		Parameter Types: java.util.function.ToDoubleFunction
-		Parameter Types: java.lang.Object
-		Parameter Types: java.lang.Object
-		Return Type: int
-		Modifiers: private static
-	Method Name: lambda$comparingInt$7b0bb60$1
-		Parameter Types: java.util.function.ToIntFunction
-		Parameter Types: java.lang.Object
-		Parameter Types: java.lang.Object
-		Return Type: int
-		Modifiers: private static
-	Method Name: lambda$comparingLong$6043328a$1
-		Parameter Types: java.util.function.ToLongFunction
-		Parameter Types: java.lang.Object
-		Parameter Types: java.lang.Object
-		Return Type: int
-		Modifiers: private static
-	Method Name: lambda$thenComparing$36697e65$1
-		Parameter Types: java.util.Comparator
-		Parameter Types: java.lang.Object
-		Parameter Types: java.lang.Object
-		Return Type: int
 		Modifiers: private
-	Method Name: naturalOrder
-		Return Type: java.util.Comparator
-		Modifiers: public static
-	Method Name: nullsFirst
-		Parameter Types: java.util.Comparator
-		Return Type: java.util.Comparator
-		Modifiers: public static
-	Method Name: nullsLast
-		Parameter Types: java.util.Comparator
-		Return Type: java.util.Comparator
-		Modifiers: public static
-	Method Name: reverseOrder
-		Return Type: java.util.Comparator
-		Modifiers: public static
-	Method Name: reversed
-		Return Type: java.util.Comparator
-		Modifiers: public
-	Method Name: thenComparing
-		Parameter Types: java.util.function.Function
-		Return Type: java.util.Comparator
-		Modifiers: public
-	Method Name: thenComparing
-		Parameter Types: java.util.Comparator
-		Return Type: java.util.Comparator
-		Modifiers: public
-	Method Name: thenComparing
-		Parameter Types: java.util.function.Function
-		Parameter Types: java.util.Comparator
-		Return Type: java.util.Comparator
-		Modifiers: public
-	Method Name: thenComparingDouble
-		Parameter Types: java.util.function.ToDoubleFunction
-		Return Type: java.util.Comparator
-		Modifiers: public
-	Method Name: thenComparingInt
-		Parameter Types: java.util.function.ToIntFunction
-		Return Type: java.util.Comparator
-		Modifiers: public
-	Method Name: thenComparingLong
-		Parameter Types: java.util.function.ToLongFunction
-		Return Type: java.util.Comparator
-		Modifiers: public
+	Field Name: serialVersionUID
+		Type: long
+		Modifiers: private static final
+		Value: 8575799808933029326
 ======================================================
